@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494232BB57149EB3DC29D33D /* libPods-OC-b2b.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2936E996A1BB9A8EECF7FD5D /* libPods-OC-b2b.a */; };
+		F31D25131D7BD0F6009427B6 /* BaseJDWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25121D7BD0F6009427B6 /* BaseJDWebviewController.m */; };
+		F31D252D1D7BFA98009427B6 /* B2BConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25261D7BFA97009427B6 /* B2BConfigure.m */; };
+		F31D252E1D7BFA98009427B6 /* B2BUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25281D7BFA97009427B6 /* B2BUtils.m */; };
+		F31D252F1D7BFA98009427B6 /* BaseJDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D252A1D7BFA97009427B6 /* BaseJDViewController.m */; };
+		F31D25301D7BFA98009427B6 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D252C1D7BFA98009427B6 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F31D25341D7C03D2009427B6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25331D7C03D2009427B6 /* MainViewController.m */; };
+		F31D25371D7C04CE009427B6 /* SupplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25361D7C04CE009427B6 /* SupplyViewController.m */; };
+		F31D253A1D7C04DD009427B6 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D25391D7C04DD009427B6 /* CarViewController.m */; };
+		F31D253D1D7C04EC009427B6 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31D253C1D7C04EC009427B6 /* MineViewController.m */; };
+		F33F96A21D6C40B8003345B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F96A11D6C40B8003345B6 /* main.m */; };
+		F33F96A51D6C40B8003345B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F96A41D6C40B8003345B6 /* AppDelegate.m */; };
+		F33F96AD1D6C40B8003345B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33F96AC1D6C40B8003345B6 /* Assets.xcassets */; };
+		F33F96B01D6C40B8003345B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33F96AE1D6C40B8003345B6 /* LaunchScreen.storyboard */; };
+		F33F96BB1D6C40B9003345B6 /* OC_b2bTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F96BA1D6C40B9003345B6 /* OC_b2bTests.m */; };
+		F33F96C61D6C40B9003345B6 /* OC_b2bUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F96C51D6C40B9003345B6 /* OC_b2bUITests.m */; };
+		F33F96D51D6C430F003345B6 /* B2bTabModle.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F96D41D6C430F003345B6 /* B2bTabModle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F33F96B71D6C40B8003345B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33F96951D6C40B8003345B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33F969C1D6C40B8003345B6;
+			remoteInfo = "OC-b2b";
+		};
+		F33F96C21D6C40B9003345B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33F96951D6C40B8003345B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33F969C1D6C40B8003345B6;
+			remoteInfo = "OC-b2b";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2936E996A1BB9A8EECF7FD5D /* libPods-OC-b2b.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC-b2b.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84E2898C734DAF292F3EFD7 /* Pods-OC-b2b.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC-b2b.release.xcconfig"; path = "Pods/Target Support Files/Pods-OC-b2b/Pods-OC-b2b.release.xcconfig"; sourceTree = "<group>"; };
+		F31D25111D7BD0F6009427B6 /* BaseJDWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJDWebviewController.h; sourceTree = "<group>"; };
+		F31D25121D7BD0F6009427B6 /* BaseJDWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJDWebviewController.m; sourceTree = "<group>"; };
+		F31D25221D7BF767009427B6 /* B2BGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2BGlobalHeader.h; sourceTree = "<group>"; };
+		F31D25231D7BF7D1009427B6 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		F31D25241D7BFA41009427B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F31D25251D7BFA97009427B6 /* B2BConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2BConfigure.h; sourceTree = "<group>"; };
+		F31D25261D7BFA97009427B6 /* B2BConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B2BConfigure.m; sourceTree = "<group>"; };
+		F31D25271D7BFA97009427B6 /* B2BUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2BUtils.h; sourceTree = "<group>"; };
+		F31D25281D7BFA97009427B6 /* B2BUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B2BUtils.m; sourceTree = "<group>"; };
+		F31D25291D7BFA97009427B6 /* BaseJDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJDViewController.h; sourceTree = "<group>"; };
+		F31D252A1D7BFA97009427B6 /* BaseJDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJDViewController.m; sourceTree = "<group>"; };
+		F31D252B1D7BFA98009427B6 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		F31D252C1D7BFA98009427B6 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		F31D25311D7BFAF6009427B6 /* B2BGlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2BGlobalConfig.h; sourceTree = "<group>"; };
+		F31D25321D7C03D2009427B6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F31D25331D7C03D2009427B6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F31D25351D7C04CE009427B6 /* SupplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplyViewController.h; sourceTree = "<group>"; };
+		F31D25361D7C04CE009427B6 /* SupplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyViewController.m; sourceTree = "<group>"; };
+		F31D25381D7C04DD009427B6 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		F31D25391D7C04DD009427B6 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+		F31D253B1D7C04EC009427B6 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = "OC-b2bTests/MineViewController.h"; sourceTree = SOURCE_ROOT; };
+		F31D253C1D7C04EC009427B6 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = "OC-b2bTests/MineViewController.m"; sourceTree = SOURCE_ROOT; };
+		F33F969D1D6C40B8003345B6 /* OC-b2b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-b2b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33F96A11D6C40B8003345B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F33F96A31D6C40B8003345B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F33F96A41D6C40B8003345B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F33F96AC1D6C40B8003345B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33F96AF1D6C40B8003345B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F33F96B11D6C40B8003345B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33F96B61D6C40B8003345B6 /* OC-b2bTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-b2bTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33F96BA1D6C40B9003345B6 /* OC_b2bTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_b2bTests.m; sourceTree = "<group>"; };
+		F33F96BC1D6C40B9003345B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33F96C11D6C40B9003345B6 /* OC-b2bUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-b2bUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33F96C51D6C40B9003345B6 /* OC_b2bUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_b2bUITests.m; sourceTree = "<group>"; };
+		F33F96C71D6C40B9003345B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33F96D31D6C430F003345B6 /* B2bTabModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B2bTabModle.h; sourceTree = "<group>"; };
+		F33F96D41D6C430F003345B6 /* B2bTabModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B2bTabModle.m; sourceTree = "<group>"; };
+		F874F481F021576276C73C6F /* Pods-OC-b2b.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC-b2b.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OC-b2b/Pods-OC-b2b.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F33F969A1D6C40B8003345B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494232BB57149EB3DC29D33D /* libPods-OC-b2b.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96B31D6C40B8003345B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96BE1D6C40B9003345B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBB1525B435214283EB2E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2936E996A1BB9A8EECF7FD5D /* libPods-OC-b2b.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B12C32287FC3A5F24E73A033 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F874F481F021576276C73C6F /* Pods-OC-b2b.debug.xcconfig */,
+				C84E2898C734DAF292F3EFD7 /* Pods-OC-b2b.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F33F96941D6C40B8003345B6 = {
+			isa = PBXGroup;
+			children = (
+				F33F969F1D6C40B8003345B6 /* OC-b2b */,
+				F33F96B91D6C40B9003345B6 /* OC-b2bTests */,
+				F33F96C41D6C40B9003345B6 /* OC-b2bUITests */,
+				F33F969E1D6C40B8003345B6 /* Products */,
+				B12C32287FC3A5F24E73A033 /* Pods */,
+				4BBB1525B435214283EB2E74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F33F969E1D6C40B8003345B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33F969D1D6C40B8003345B6 /* OC-b2b.app */,
+				F33F96B61D6C40B8003345B6 /* OC-b2bTests.xctest */,
+				F33F96C11D6C40B9003345B6 /* OC-b2bUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33F969F1D6C40B8003345B6 /* OC-b2b */ = {
+			isa = PBXGroup;
+			children = (
+				F33F96A31D6C40B8003345B6 /* AppDelegate.h */,
+				F33F96A41D6C40B8003345B6 /* AppDelegate.m */,
+				F33F96AC1D6C40B8003345B6 /* Assets.xcassets */,
+				F33F96AE1D6C40B8003345B6 /* LaunchScreen.storyboard */,
+				F33F96B11D6C40B8003345B6 /* Info.plist */,
+				F33F96A01D6C40B8003345B6 /* Supporting Files */,
+				F33F96D31D6C430F003345B6 /* B2bTabModle.h */,
+				F33F96D41D6C430F003345B6 /* B2bTabModle.m */,
+				F31D25251D7BFA97009427B6 /* B2BConfigure.h */,
+				F31D25261D7BFA97009427B6 /* B2BConfigure.m */,
+				F31D25271D7BFA97009427B6 /* B2BUtils.h */,
+				F31D25281D7BFA97009427B6 /* B2BUtils.m */,
+				F31D25291D7BFA97009427B6 /* BaseJDViewController.h */,
+				F31D252A1D7BFA97009427B6 /* BaseJDViewController.m */,
+				F31D252B1D7BFA98009427B6 /* OpenUDID.h */,
+				F31D252C1D7BFA98009427B6 /* OpenUDID.m */,
+				F31D25111D7BD0F6009427B6 /* BaseJDWebviewController.h */,
+				F31D25121D7BD0F6009427B6 /* BaseJDWebviewController.m */,
+				F31D25321D7C03D2009427B6 /* MainViewController.h */,
+				F31D25331D7C03D2009427B6 /* MainViewController.m */,
+				F31D25351D7C04CE009427B6 /* SupplyViewController.h */,
+				F31D25361D7C04CE009427B6 /* SupplyViewController.m */,
+				F31D253B1D7C04EC009427B6 /* MineViewController.h */,
+				F31D253C1D7C04EC009427B6 /* MineViewController.m */,
+				F31D25381D7C04DD009427B6 /* CarViewController.h */,
+				F31D25391D7C04DD009427B6 /* CarViewController.m */,
+			);
+			path = "OC-b2b";
+			sourceTree = "<group>";
+		};
+		F33F96A01D6C40B8003345B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31D25231D7BF7D1009427B6 /* SynthesizeSingleton.h */,
+				F31D25221D7BF767009427B6 /* B2BGlobalHeader.h */,
+				F31D25241D7BFA41009427B6 /* PrefixHeader.pch */,
+				F31D25311D7BFAF6009427B6 /* B2BGlobalConfig.h */,
+				F33F96A11D6C40B8003345B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F33F96B91D6C40B9003345B6 /* OC-b2bTests */ = {
+			isa = PBXGroup;
+			children = (
+				F33F96BA1D6C40B9003345B6 /* OC_b2bTests.m */,
+				F33F96BC1D6C40B9003345B6 /* Info.plist */,
+			);
+			path = "OC-b2bTests";
+			sourceTree = "<group>";
+		};
+		F33F96C41D6C40B9003345B6 /* OC-b2bUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F33F96C51D6C40B9003345B6 /* OC_b2bUITests.m */,
+				F33F96C71D6C40B9003345B6 /* Info.plist */,
+			);
+			path = "OC-b2bUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F33F969C1D6C40B8003345B6 /* OC-b2b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33F96CA1D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2b" */;
+			buildPhases = (
+				67FB187A66D1A0654D2D5736 /* 📦 Check Pods Manifest.lock */,
+				F33F96991D6C40B8003345B6 /* Sources */,
+				F33F969A1D6C40B8003345B6 /* Frameworks */,
+				F33F969B1D6C40B8003345B6 /* Resources */,
+				570FF3A31C61C2EFD320BC5F /* 📦 Embed Pods Frameworks */,
+				A473E68F128794AA7FEF2B6A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC-b2b";
+			productName = "OC-b2b";
+			productReference = F33F969D1D6C40B8003345B6 /* OC-b2b.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F33F96B51D6C40B8003345B6 /* OC-b2bTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33F96CD1D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2bTests" */;
+			buildPhases = (
+				F33F96B21D6C40B8003345B6 /* Sources */,
+				F33F96B31D6C40B8003345B6 /* Frameworks */,
+				F33F96B41D6C40B8003345B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33F96B81D6C40B8003345B6 /* PBXTargetDependency */,
+			);
+			name = "OC-b2bTests";
+			productName = "OC-b2bTests";
+			productReference = F33F96B61D6C40B8003345B6 /* OC-b2bTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F33F96C01D6C40B9003345B6 /* OC-b2bUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33F96D01D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2bUITests" */;
+			buildPhases = (
+				F33F96BD1D6C40B9003345B6 /* Sources */,
+				F33F96BE1D6C40B9003345B6 /* Frameworks */,
+				F33F96BF1D6C40B9003345B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33F96C31D6C40B9003345B6 /* PBXTargetDependency */,
+			);
+			name = "OC-b2bUITests";
+			productName = "OC-b2bUITests";
+			productReference = F33F96C11D6C40B9003345B6 /* OC-b2bUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F33F96951D6C40B8003345B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "彭东成";
+				TargetAttributes = {
+					F33F969C1D6C40B8003345B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F33F96B51D6C40B8003345B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F33F969C1D6C40B8003345B6;
+					};
+					F33F96C01D6C40B9003345B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F33F969C1D6C40B8003345B6;
+					};
+				};
+			};
+			buildConfigurationList = F33F96981D6C40B8003345B6 /* Build configuration list for PBXProject "OC-b2b" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F33F96941D6C40B8003345B6;
+			productRefGroup = F33F969E1D6C40B8003345B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33F969C1D6C40B8003345B6 /* OC-b2b */,
+				F33F96B51D6C40B8003345B6 /* OC-b2bTests */,
+				F33F96C01D6C40B9003345B6 /* OC-b2bUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33F969B1D6C40B8003345B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33F96B01D6C40B8003345B6 /* LaunchScreen.storyboard in Resources */,
+				F33F96AD1D6C40B8003345B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96B41D6C40B8003345B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96BF1D6C40B9003345B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		570FF3A31C61C2EFD320BC5F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC-b2b/Pods-OC-b2b-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67FB187A66D1A0654D2D5736 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A473E68F128794AA7FEF2B6A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OC-b2b/Pods-OC-b2b-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F33F96991D6C40B8003345B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33F96A51D6C40B8003345B6 /* AppDelegate.m in Sources */,
+				F31D252D1D7BFA98009427B6 /* B2BConfigure.m in Sources */,
+				F31D252F1D7BFA98009427B6 /* BaseJDViewController.m in Sources */,
+				F31D252E1D7BFA98009427B6 /* B2BUtils.m in Sources */,
+				F31D25341D7C03D2009427B6 /* MainViewController.m in Sources */,
+				F31D25371D7C04CE009427B6 /* SupplyViewController.m in Sources */,
+				F33F96D51D6C430F003345B6 /* B2bTabModle.m in Sources */,
+				F31D25301D7BFA98009427B6 /* OpenUDID.m in Sources */,
+				F33F96A21D6C40B8003345B6 /* main.m in Sources */,
+				F31D253A1D7C04DD009427B6 /* CarViewController.m in Sources */,
+				F31D25131D7BD0F6009427B6 /* BaseJDWebviewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96B21D6C40B8003345B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33F96BB1D6C40B9003345B6 /* OC_b2bTests.m in Sources */,
+				F31D253D1D7C04EC009427B6 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33F96BD1D6C40B9003345B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33F96C61D6C40B9003345B6 /* OC_b2bUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F33F96B81D6C40B8003345B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33F969C1D6C40B8003345B6 /* OC-b2b */;
+			targetProxy = F33F96B71D6C40B8003345B6 /* PBXContainerItemProxy */;
+		};
+		F33F96C31D6C40B9003345B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33F969C1D6C40B8003345B6 /* OC-b2b */;
+			targetProxy = F33F96C21D6C40B9003345B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F33F96AE1D6C40B8003345B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33F96AF1D6C40B8003345B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F33F96C81D6C40B9003345B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F33F96C91D6C40B9003345B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F33F96CB1D6C40B9003345B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F874F481F021576276C73C6F /* Pods-OC-b2b.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OC-b2b/PrefixHeader.pch";
+				INFOPLIST_FILE = "OC-b2b/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F33F96CC1D6C40B9003345B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84E2898C734DAF292F3EFD7 /* Pods-OC-b2b.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OC-b2b/PrefixHeader.pch";
+				INFOPLIST_FILE = "OC-b2b/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F33F96CE1D6C40B9003345B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC-b2bTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2bTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-b2b.app/OC-b2b";
+			};
+			name = Debug;
+		};
+		F33F96CF1D6C40B9003345B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC-b2bTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2bTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-b2b.app/OC-b2b";
+			};
+			name = Release;
+		};
+		F33F96D11D6C40B9003345B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC-b2bUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2bUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC-b2b";
+			};
+			name = Debug;
+		};
+		F33F96D21D6C40B9003345B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC-b2bUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jd.OC-b2bUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC-b2b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F33F96981D6C40B8003345B6 /* Build configuration list for PBXProject "OC-b2b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33F96C81D6C40B9003345B6 /* Debug */,
+				F33F96C91D6C40B9003345B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33F96CA1D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33F96CB1D6C40B9003345B6 /* Debug */,
+				F33F96CC1D6C40B9003345B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33F96CD1D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2bTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33F96CE1D6C40B9003345B6 /* Debug */,
+				F33F96CF1D6C40B9003345B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33F96D01D6C40B9003345B6 /* Build configuration list for PBXNativeTarget "OC-b2bUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33F96D11D6C40B9003345B6 /* Debug */,
+				F33F96D21D6C40B9003345B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F33F96951D6C40B8003345B6 /* Project object */;
+}

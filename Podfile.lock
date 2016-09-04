@@ -1,0 +1,76 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - AsyncDisplayKit (1.9.7.2):
+    - AsyncDisplayKit/PINRemoteImage (= 1.9.7.2)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.7.2)
+  - AsyncDisplayKit/PINRemoteImage (1.9.7.2):
+    - AsyncDisplayKit/ASDealloc2MainObject
+    - PINRemoteImage/iOS (>= 2.1.2)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.0)
+  - PINCache (2.2.2)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/iOS (2.1.4):
+    - PINRemoteImage/Core
+  - Reachability (3.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SIAlertView (1.3)
+  - SSZipArchive (1.1)
+  - WebViewJavascriptBridge (4.1.5)
+
+DEPENDENCIES:
+  - ASIHTTPRequest (~> 1.8.2)
+  - AsyncDisplayKit (~> 1.9.7.2)
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension (from `https://github.com/CoderMJLee/MJExtension`)
+  - MJRefresh
+  - SDWebImage (~> 3.7.3)
+  - SIAlertView (~> 1.3)
+  - SSZipArchive
+  - WebViewJavascriptBridge (~> 4.1.4)
+
+EXTERNAL SOURCES:
+  MJExtension:
+    :git: https://github.com/CoderMJLee/MJExtension
+
+CHECKOUT OPTIONS:
+  MJExtension:
+    :commit: 71f94bed5ad0482fb96401838c419a53169e676f
+    :git: https://github.com/CoderMJLee/MJExtension
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  AsyncDisplayKit: 1701c47761a3e274b82cc0c77e6294cfa69612f6
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  SSZipArchive: de3d215ab73f87db627f81f2ce24f1731e3886c3
+  WebViewJavascriptBridge: e7b6669bebfc4f151daa0fdec3c8c24c8dc3a24e
+
+PODFILE CHECKSUM: 72e83f2c83795ab881216cb27da4f7b77d50d584
+
+COCOAPODS: 1.0.0.beta.8

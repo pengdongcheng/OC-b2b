@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  b2b-ios
+//
+//  Created by liuqingmin on 15/11/10.
+//  Copyright © 2015年 liuqingmin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+
+#define PrefixHeader_pch
+
+#import <Availability.h>
+#import "B2BGlobalHeader.h"
+#import "B2BGlobalConfig.h"
+#import "B2BUtils.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif /* PrefixHeader_pch */
+
+
+
+//#if (__IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_0)
+//#define WKWebKit
+//#endif
